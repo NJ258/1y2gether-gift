@@ -21,8 +21,8 @@
   <button class="music-btn" id="musicBtn" title="Música">♪</button>
 
   <!-- Hidden audio -->
-  <audio id="bgMusic">
-    <source src="/music/beautifulvoice.mp4" type="audio/mpeg">
+  <audio id="bgMusic" preload="metadata" loop>
+    <source src="music/beautifulvoice.mp4" type="audio/mp4">
   </audio>
 
   <!-- ═══════════════ HERO ═══════════════ -->
@@ -278,6 +278,7 @@
     <button class="lightbox-close" id="lightboxClose">✕</button>
     <button class="lightbox-nav lightbox-prev" id="lightboxPrev">‹</button>
     <img class="lightbox-img" id="lightboxImg" src="" alt="">
+    <video class="lightbox-video" id="lightboxVideo" muted loop autoplay playsinline></video>
     <button class="lightbox-nav lightbox-next" id="lightboxNext">›</button>
   </div>
 
