@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Charmaine David Gava ♡</title>
+</head>
+
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Particles Canvas -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Music Control -->
+  <button class="music-btn" id="musicBtn" title="Música">♪</button>
+
+  <!-- Hidden audio -->
+  <audio id="bgMusic">
+    <source src="/music/beautifulvoice.mp4" type="audio/mpeg">
+  </audio>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+
+    <div class="hero-img-wrap">
+      <img class="hero-img" src="imgs/pic21_.jpeg" alt="Charmaine"
+        onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22240%22 height=%22300%22><rect fill=%22%231a1a1a%22 width=%22240%22 height=%22300%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23c9a96e%22 font-size=%2２40%２２ text-anchor=%２２middle%２２ dominant-baseline=%２２middle%２２>♡</text></svg>'">
+    </div>
+
+    <h1 class="hero-name">Charmaine David Gava</h1>
+    <p class="hero-subtitle">♡ To my beautiful lady ♡</p>
+    <p class="hero-quote">"You not only light up the world but also light up my life with your presence, a true gift from God."</p>
+
+    <a class="hero-btn" href="#gallery">Explore</a>
+
+    <div class="scroll-indicator">
+      <span class="scroll-text">scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-heart"></div>
+    <div class="divider-heart" style="font-size:7px;color:rgba(201,169,110,0.4)"></div>
+    <div class="divider-heart"></div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- ═══════════════ GALLERY ═══════════════ -->
+  <section class="gallery-section" id="gallery">
+    <p class="section-title">Moments</p>
+    <h2 class="section-heading">Your beauty in frames</h2>
+
+    <div class="gallery-grid" id="galleryGrid">
+      <!-- 20 images — replace src with your files -->
+      <div class="gallery-item featured" data-index="0">
+        <img src="imgs/pic9_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item" data-index="1">
+        <img src="imgs/pic11_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item" data-index="2">
+        <img src="imgs/pic4_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item" data-index="3">
+        <img src="imgs/pic5_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item" data-index="4">
+        <img src="imgs/pic6_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item featured" data-index="5">
+        <img src="imgs/pic10_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item" data-index="6">
+        <img src="imgs/pic8_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item" data-index="7">
+        <img src="imgs/pic2_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item" data-index="8">
+        <img src="imgs/pic10_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item" data-index="9">
+        <img src="imgs/pic11_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item featured" data-index="10">
+        <img src="imgs/pic15_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item" data-index="11">
+        <img src="imgs/pic13_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item" data-index="12">
+        <img src="imgs/pic14_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item" data-index="13">
+        <img src="imgs/pic12_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item" data-index="14">
+        <img src="imgs/pic17_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item featured" data-index="15">
+        <img src="imgs/pic16_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item" data-index="16">
+        <img src="imgs/pic18_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item" data-index="17">
+        <img src="imgs/pic19_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item" data-index="18">
+        <img src="imgs/pic20_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+      </div>
+      <div class="gallery-item" data-index="19">
+        <video src="imgs/cutevid.mp4" alt="Charmaine" onerror="this.style.background='#1a1a1a'" autoplay muted loop playsinline 
+          style="width:100%;height:100%;object-fit:cover;border-radius:8px">
+        <div class="gallery-overlay"></div>
+        <div class="gallery-shine"></div>
+        </video>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-heart"></div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- ═══════════════ QUOTES ═══════════════ -->
+  <section class="quotes-section">
+    <div class="quotes-bg"></div>
+
+    <p class="section-title" style="margin-bottom:40px">Truths</p>
+
+    <div class="quote-card">
+      <span class="quote-mark">"</span>
+      <p class="quote-text">She is not just beautiful… she is art.</p>
+      <div class="quote-line"></div>
+    </div>
+
+    <div class="quote-card">
+      <span class="quote-mark">"</span>
+      <p class="quote-text">Her smile can change entire days.</p>
+      <div class="quote-line"></div>
+    </div>
+
+    <div class="quote-card">
+      <span class="quote-mark">"</span>
+      <p class="quote-text">There are rare people who carry light within themselves… and she is one of them.</p>
+      <div class="quote-line"></div>
+    </div>
+
+    <div class="quote-card">
+      <span class="quote-mark">"</span>
+      <p class="quote-text">Her beauty is not just in her face... it's in the way she exists.</p>
+      <div class="quote-line"></div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-heart"></div>
+    <div class="divider-heart" style="font-size:7px;color:rgba(201,169,110,0.4)"></div>
+    <div class="divider-heart"></div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- ═══════════════ PORTRAIT SHOWCASE ═══════════════ -->
+  <section class="portrait-section">
+    <p class="section-title" style="margin-bottom:32px">Her</p>
+
+    <div class="portrait-row">
+      <div class="portrait-item" data-index="0">
+        <img src="imgs/pic1_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="portrait-border"></div>
+      </div>
+      <div class="portrait-item wide" data-index="3">
+        <img src="imgs/pic4_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="portrait-border"></div>
+      </div>
+      <div class="portrait-item" data-index="6">
+        <img src="imgs/pic7_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="portrait-border"></div>
+      </div>
+    </div>
+
+    <div class="portrait-row" style="margin-top:12px">
+      <div class="portrait-item wide" data-index="10">
+        <img src="imgs/pic11_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="portrait-border"></div>
+      </div>
+      <div class="portrait-item" data-index="14">
+        <img src="imgs/pic15_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="portrait-border"></div>
+      </div>
+      <div class="portrait-item" data-index="18">
+        <img src="imgs/pic19_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+        <div class="portrait-border"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FINAL ═══════════════ -->
+  <section class="final-section">
+    <div class="final-bg"></div>
+
+    <div class="final-img-wrap" id="finalImgWrap">
+      <img class="final-img" src="imgs/pic21_.jpeg" alt="Charmaine" onerror="this.style.background='#1a1a1a'">
+    </div>
+
+    <h2 class="final-title" id="finalTitle">To my beautiful lady</h2>
+
+    <div class="stars-wrap" id="starsWrap">
+      <span class="star">♡</span>
+      <span class="star">♡</span>
+      <span class="star">♡</span>
+      <span class="star">♡</span>
+      <span class="star">♡</span>
+    </div>
+
+    <p class="final-message" id="finalMsg">
+      "In any universe,<br>in any life,<br>I would still choose to admire you."
+    </p>
+
+    <p class="final-signature" id="finalSig">♡ Made with love ♡<br> To the best thing that ever happened to me</p>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">✕</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev">‹</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="">
+    <button class="lightbox-nav lightbox-next" id="lightboxNext">›</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
